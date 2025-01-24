@@ -1,6 +1,6 @@
 name: Sane
-version: "1.0"
-slug: sane-scanner
+version: "dev"
+slug: sane
 description: A Sane server for wireless scanning
 arch:
   - amd64
@@ -10,5 +10,5 @@ init: false
 homeassistant_api: true
 host_network: true
 map:
-  - config:rw
+  - addon_config:rw
 

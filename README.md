@@ -1,7 +1,8 @@
 # homeassistant addon sane scanner
+
 Scan using Sane addon 
 
-Tested with Home Assistant version **2023.9**
+Tested with Home Assistant version **2025.1**
 
 Needs configuration through dll.conf, net.conf and saned.conf files.
 
