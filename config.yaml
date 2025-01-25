@@ -11,4 +11,3 @@ homeassistant_api: true
 host_network: true
 map:
   - addon_config:rw
-
