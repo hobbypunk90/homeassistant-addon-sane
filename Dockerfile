@@ -10,7 +10,8 @@ RUN apk add --no-cache \
     sane \
     sane-saned \
     sane-utils \
-    sane-backends
+  && apk add  --no-cache $(apk search -q sane-backend-) \
+  && apk del sane-backend-net sane-backend-test sane-backend-gphoto2
 
 # Copy root filesystem
 COPY rootfs /
