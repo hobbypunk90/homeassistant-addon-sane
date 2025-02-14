@@ -10,4 +10,4 @@ ln -v -s /config/sane.d /etc/sane.d
 
 bashio::log.info "Starting SANEd server as CMD from S6"
 
-saned -l --user=root
+saned -l -d128 --user=root
